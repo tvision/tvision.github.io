@@ -2,29 +2,46 @@
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-  <meta name="author" content="{{ site.author }}">
+<head><link rel="stylesheet" type="text/css" href="" media="all" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="UTF-8" />
+  <title>Terravision Jobs | Terravision </title>
+  <link rel="stylesheet" type="text/css" media="all" href="{{ root_url }}/stylesheets/style.css" />
+  <link href="https://plus.google.com/117663298953246625852" rel="publisher" />
+  <script type="text/javascript" src="http://33c02c0c79a58839e643-a32630085b8438528eb77418ce349b52.r18.cf3.rackcdn.com/wp-content/themes/terravision/js/jquery-1.7.2.min.js?v=1343210081"></script>
+  <script type="text/javascript" src="http://33c02c0c79a58839e643-a32630085b8438528eb77418ce349b52.r18.cf3.rackcdn.com/wp-content/themes/terravision/js/jquery-ui-1.8.2.min.js?v=1355407121"></script>
+  <script type="text/javascript" src="/javascripts/jquery.tiltShift.js"></script>
+  <script type="text/javascript">
 
-  {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
-  <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
-  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+  (function() {
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
 
-  {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
-  <link rel="canonical" href="{{ canonical }}">
-  <link href="{{ root_url }}/favicon.png" rel="icon">
-  <link href="{{ root_url }}/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
-  <script src="{{ root_url }}/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="{{ root_url }}/javascripts/octopress.js" type="text/javascript"></script>
+    po.src = 'https://apis.google.com/js/plusone.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+
+  })();
+
+  </script>
+<!--[if lt IE 9]>
+
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+
+<![endif]-->
+
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.2.3 - http://yoast.com/wordpress/seo/ -->
+<meta name="description" content="TerraExperience: airport transfers, lowcost car parks, lounge bars, holiday apartments, country side holidays in Tuscany and organic products."/>
+<meta name="keywords" content="TerraExperience"/>
+<link rel="canonical" href="http://www.terravision.eu/terraexperience.html" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Terravision Inglese &raquo; TerraExperience Comments Feed" href="http://www.terravision.eu/terraexperience.html/feed/" />
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.terravision.eu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.terravision.eu/wp-includes/wlwmanifest.xml" /> 
   {% include custom/head.html %}
   {% include google_analytics.html %}
 </head>
+
