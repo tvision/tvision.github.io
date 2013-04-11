@@ -2,12 +2,16 @@
 layout: post
 title: "back-end developer"
 date: 2013-04-11 15:35
-comments: true
-categories: 
+comments: false
+categories: job
 ---
 
 Terravision is looking for a PHP Back-end Developer in Rome...
 <!-- more -->
+
+[Apply here!!](https://docs.google.com/forms/d/1b0Zf1I3P7P38IHwQs3JptwxsmZx3NjzycX6akZLh6TA/viewform)
+
+
 Ciao (almost) FabPot we're lucky to have found you.
 
 Look at this new open positions for developers here @ Terravision (HQ in the center of Rome),
@@ -68,7 +72,9 @@ PS: I really don't like standard CV templates (as European format), I prefer a c
 
 PPS: read our [manifesto](https://gist.github.com/liuggio/4339207#file-software-team-manifesto-md)
 
-PPPS: mmmm [`Exponential`](#we) and then [`a * t`](#we-are-looking-from-zero-to-hero-as-long-as-youll-tent-to-hero-with-a--t) WTF
+PPPS: mmmm  `Exponential` and then  `a * t` ...
 
+
+[Apply here!!](https://docs.google.com/forms/d/1b0Zf1I3P7P38IHwQs3JptwxsmZx3NjzycX6akZLh6TA/viewform)
 
 
