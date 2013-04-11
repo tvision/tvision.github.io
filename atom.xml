@@ -1,16 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Terravision R&D careers]]></title>
   <link href="http://tvision.github.io/atom.xml" rel="self"/>
   <link href="http://tvision.github.io/"/>
-  <updated>2013-04-11T14:55:33+02:00</updated>
+  <updated>2013-04-11T15:53:10+02:00</updated>
   <id>http://tvision.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Tvision]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[back-end developer]]></title>
+    <link href="http://tvision.github.io/job/back-end-developer/"/>
+    <updated>2013-04-11T15:35:00+02:00</updated>
+    <id>http://tvision.github.io/job/back-end-developer</id>
+    <content type="html"><![CDATA[<div class="google-form-wrapper"><p class='success-msg'>Thank you Geek. I&#8217;ll get back to you shortly </p><form action="https://docs.google.com/forms/d/1b0Zf1I3P7P38IHwQs3JptwxsmZx3NjzycX6akZLh6TA/formResponse?embedded=true" method="POST" id="ss-form" target="_self" onsubmit="">
+<div class="errorbox-good">
+<div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_822416543"><div class="ss-q-title">Hi, my name is
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<input type="text" name="entry.822416543" value="" class="ss-q-short" id="entry_822416543" dir="auto">
+</div></div>
+</div> <div class="errorbox-good">
+<div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1572496533"><div class="ss-q-title">My linkedin account is&#8230;
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<input type="text" name="entry.1572496533" value="" class="ss-q-short" id="entry_1572496533" dir="auto">
+</div></div>
+</div> <div class="errorbox-good">
+<div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1903868791"><div class="ss-q-title">My twitter name is&#8230;
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<input type="text" name="entry.1903868791" value="" class="ss-q-short" id="entry_1903868791" dir="auto">
+</div></div>
+</div> <div class="errorbox-good">
+<div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_602281625"><div class="ss-q-title">My Github account is&#8230;
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<input type="text" name="entry.602281625" value="" class="ss-q-short" id="entry_602281625" dir="auto">
+</div></div>
+</div> <div class="errorbox-good">
+<div dir="ltr" class="ss-item ss-item-required ss-select"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1573499501"><div class="ss-q-title">I&#8217;m working from&#8230;&#8230; years
+<label for="itemView.getDomIdToLabel()" aria-label="(Campo obbligatorio)"></label>
+<span class="ss-required-asterisk">*</span>
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<select name="entry.1573499501" id="entry_1573499501" aria-required="true"><option value=""></option>
+<option value="&lt; 3">&lt; 3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="&gt; 5">&gt; 5</option></select>
+</div></div>
+</div> <div class="errorbox-good">
+<div dir="ltr" class="ss-item ss-item-required ss-radio"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1287714991"><div class="ss-q-title">Today i&#8217;m a 
+<label for="itemView.getDomIdToLabel()" aria-label="(Campo obbligatorio)"></label>
+<span class="ss-required-asterisk">*</span>
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<ul class="ss-choices">
+<li class="ss-choice-item"><label><input type="radio" name="entry.1086059587" value="Student" id="group_1086059587_1" class="ss-q-radio" aria-label="Student"><span class="ss-choice-label">Student</span></label></li> <li class="ss-choice-item"><label><input type="radio" name="entry.1086059587" value="Employee" id="group_1086059587_2" class="ss-q-radio" aria-label="Employee"><span class="ss-choice-label">Employee</span></label></li> <li class="ss-choice-item"><label><input type="radio" name="entry.1086059587" value="Freelance" id="group_1086059587_3" class="ss-q-radio" aria-label="Freelance"><span class="ss-choice-label">Freelance</span></label></li> <li class="ss-choice-item"><label><input type="radio" name="entry.1086059587" value="Unemployed" id="group_1086059587_4" class="ss-q-radio" aria-label="Unemployed"><span class="ss-choice-label">Unemployed</span></label></li> <li class="ss-choice-item">
+<label><input type="radio" name="entry.1086059587" value="__other_option__" id="group_1086059587_5" class="ss-q-radio ss-q-other-toggle">
+Altro:</label>
+<input type="text" name="entry.1086059587.other_option_response" value="" class="ss-q-other" id="entry_1086059587_other_option_response" dir="auto" aria-label="Altro">
+</li>
+</ul>
+</div></div>
+</div> <div class="errorbox-good">
+<div dir="ltr" class="ss-item ss-item-required ss-select"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_918123692"><div class="ss-q-title">I am responding to
+<label for="itemView.getDomIdToLabel()" aria-label="(Campo obbligatorio)"></label>
+<span class="ss-required-asterisk">*</span>
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<select name="entry.918123692" id="entry_918123692" aria-required="true"><option value=""></option>
+<option value="Frontend developer">Frontend developer</option>
+<option value="Backend developer">Backend developer</option></select>
+</div></div>
+</div> <div class="errorbox-good">
+<div dir="ltr" class="ss-item ss-item-required ss-paragraph-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_524433412"><div class="ss-q-title">I describe me in 100 words
+<label for="itemView.getDomIdToLabel()" aria-label="(Campo obbligatorio)"></label>
+<span class="ss-required-asterisk">*</span>
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<textarea name="entry.524433412" rows="8" cols="0" class="ss-q-long" id="entry_524433412" dir="auto" aria-required="true"></textarea>
+</div></div>
+</div>
+<input type="hidden" name="draftResponse" value="[]
+"><input type="hidden" name="pageHistory" value="0"><div class="ss-item ss-navigate"><div class="ss-form-entry">
+<input type="submit" name="submit" value="Invia" id="ss-submit"><div class="ss-secondary-text">Non inviare mai le password tramite Moduli Google.</div>
+</div></div>
+</form></div>
+
+]]></content>
+  </entry>
   
 </feed>
