@@ -4,13 +4,14 @@ title: "back-end developer"
 date: 2013-04-11 15:35
 comments: false
 categories: job
+application: "https://docs.google.com/forms/d/1b0Zf1I3P7P38IHwQs3JptwxsmZx3NjzycX6akZLh6TA/viewform"
+tags: best practice, design pattern, symfony2, cloud, test, metrics, cool!
 ---
 
 Terravision is looking for a PHP Back-end Developer in Rome...
 <!-- more -->
 
 [Apply here!!](https://docs.google.com/forms/d/1b0Zf1I3P7P38IHwQs3JptwxsmZx3NjzycX6akZLh6TA/viewform)
-
 
 Ciao (almost) FabPot we're lucky to have found you.
 

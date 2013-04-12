@@ -1,44 +1,93 @@
 ---
 layout: default
 single: true
-application:
 ---
 
 <div>
-<article class="hentry" role="article">
-  {% include article.html %}
-  <footer>
-    <p class="meta">
-      {% include post/author.html %}
-      {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-      {% include post/categories.html %}
-    </p>
-    {% unless page.sharing == false %}
-      {% include post/sharing.html %}
-    {% endunless %}
-    <p class="meta">
-      {% if page.previous.url %}
-        <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
-      {% endif %}
-      {% if page.next.url %}
-        <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
-      {% endif %}
-    </p>
-  </footer>
-</article>
-{% if site.disqus_short_name and page.comments == true %}
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
-  </section>
-{% endif %}
+    <article class="hentry" role="article">
+        {% include article.html %}
+
+        <div class="side">
+            <div id="sidebar" style="height: 949px;">
+                <div class="block"><h2>TL; DR</h2>
+
+                    <div class="menu-london-travel-container">
+                        <ul class="menu" id="menu-london-travel">
+                            <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-7510"
+                                id="menu-item-7510">Quality
+                            </li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-395"
+                                id="menu-item-395">Passion
+                            </li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-7512"
+                                id="menu-item-7512">Growth
+                            </li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-402"
+                                id="menu-item-402">Ethics
+                            </li>
+                            <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-401"
+                                id="menu-item-401">Rome = ☀.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="block"><h2>Links</h2>
+
+                    <div class="menu-london-travel-container">
+
+                        <ul class="menu">
+
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-395">
+                                {% unless page.sharing == false %}
+                                {% include post/sharing.html %}
+                                {% endunless %}
+                            </li>
+
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-402"
+                                    >Category: {% include post/categories.html %}
+                            </li>
+
+                            {% if page.previous.url %}
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-7512">
+                                <a class="basic-alignment left" href="{{page.previous.url}}"
+                                   title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+                            </li>
+                            {% endif %}
+
+                            {% if page.next.url %}
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-7512">
+                                <a class="basic-alignment right" href="{{page.next.url}}"
+                                   title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
+                            </li>
+                            {% endif %}
+
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </article>
+
+
+    {% if site.disqus_short_name and page.comments == true %}
+    <section>
+        <h1>Comments</h1>
+
+        <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+    </section>
+    {% endif %}
 </div>
 {% unless page.sidebar == false %}
+<!--
 <aside class="sidebar">
-  {% if site.post_asides.size %}
-    {% include_array post_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
+{% if site.post_asides.size %}
+{% include_array post_asides %}
+{% else %}
+{% include_array default_asides %}
+{% endif %} -->
 </aside>
 {% endunless %}

@@ -1,49 +1,32 @@
 {% unless page.no_header %}
-    {% if index %}
+{% if index %}
+<div class="imagetext-left">
+  <span class="title"><a href="{{ root_url }}{{ post.url }}" style="color: #999999;">{{ post.title }}</a></span>
+    <span class="text"><a href="{{ root_url }}{{ post.url }}">{{ content | excerpt }}</a></br>
+     <b>{{ post.tags }}</b></span>
+    {% if  post.application %}<a href="{{ post.application }}"><span class="link">&nbsp;Apply here,&nbsp;</span></a>{% endif %}
+    <a href="{{ root_url }}{{ post.url }}"><span class="link">Read more ...&nbsp;</span></a>
+</div>
 
-    <div class="imagetext-left">
-      <span class="title">{% if site.title %}{{ page.title | title }}{% else %}{{ page.title }}{% endif %}</span>
-        <span class="text">{{ content | excerpt }}</span><br />
-        <a href="{{ root_url }}{{ post.url }}"><span class="link">Read more ...</span></a>
-      </div>
 
-    {% else %}
-
+{% else %}
 <div id="content-single">
-
-
-
     <div class="post-113 page type-page status-publish hentry" id="post-113">
         <div id="title-content">
             <div id="title">{% if site.title %}{{ page.title | title }}{% else %}{{ page.title }}{% endif %}</div>
         </div>
         <div class="content">
             <div id="article-single">
-
-     {{ content }}
-
+           {{ content }}
             </div>
         </div><!-- .entry-content -->
     </div><!-- #post-## -->
-
-
-
-
 </div>
 
 {% endif %}
-{% unless page.meta == false %}
-<div class= "side">
-    <p class="meta">
-        {% include post/date.html %}{{ time }}
-        {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
-        | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
-        {% endif %}
-    </p>
-</div>
+{% endunless %}
 
-{% endunless %}
-{% endunless %}
+
 
 
 
