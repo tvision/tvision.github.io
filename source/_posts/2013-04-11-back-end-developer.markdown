@@ -67,7 +67,7 @@ I participate in open source projects, I think in Best Practice and I write in G
 -> Rome = ☀.
 
 
-Contact me on g.dedonato @ terravision.eu
+**Contact me on g.dedonato @ terravision.eu **
 
 PS: I really don't like standard CV templates (as European format), I prefer a cover letter and/or a linkedin profile or homemade template.
 

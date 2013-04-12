@@ -45,7 +45,7 @@ We have several projects mainly on the front-end.
 Although it's premature to talk about the money (the budget has not yet been accepted), I can say that
 is not important the years of experience, but the passion and the evolution.
 
-Contact me on g.dedonato @ terravision.eu
+**Contact me on g.dedonato @ terravision.eu **
 
 PS: I really don't like standard CV templates (as European format), I prefer a cover letter and/or a linkedin profile or homemade template.
 
