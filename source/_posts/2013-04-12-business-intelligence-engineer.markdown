@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Business Intelligence Engineer"
-date: 2013-04-12 16:12
+date: 2013-04-10 16:12
 comments: true
 categories: job
 ---

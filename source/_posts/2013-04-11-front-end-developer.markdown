@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "front-end developer"
+title: "Front-end developer"
 date: 2013-04-11 15:35
 comments: false
 categories: job
