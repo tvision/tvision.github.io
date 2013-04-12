@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://tvision.github.io/job/back-end-developer/</loc>
-        <lastmod>2013-04-12T16:16:49+02:00</lastmod>
+        <loc>http://tvision.github.io/job/business-intelligence-engineer/</loc>
+        <lastmod>2013-04-12T16:21:56+02:00</lastmod>
     </url>
     <url>
         <loc>http://tvision.github.io/job/front-end-developer/</loc>
-        <lastmod>2013-04-12T16:17:02+02:00</lastmod>
+        <lastmod>2013-04-12T16:22:03+02:00</lastmod>
     </url>
     <url>
-        <loc>http://tvision.github.io/job/business-intelligence-engineer/</loc>
-        <lastmod>2013-04-12T16:17:08+02:00</lastmod>
+        <loc>http://tvision.github.io/job/back-end-developer/</loc>
+        <lastmod>2013-04-12T16:22:05+02:00</lastmod>
     </url>
     <url>
         <loc>http://tvision.github.io/</loc>
-        <lastmod>2013-04-12T16:17:08+02:00</lastmod>
+        <lastmod>2013-04-12T16:22:05+02:00</lastmod>
     </url>
     <url>
         <loc>http://tvision.github.io/robots.txt</loc>
@@ -22,6 +22,6 @@
     </url>
     <url>
         <loc>http://tvision.github.io/blog/archives/</loc>
-        <lastmod>2013-04-12T16:17:08+02:00</lastmod>
+        <lastmod>2013-04-12T16:22:05+02:00</lastmod>
     </url>
 </urlset>
