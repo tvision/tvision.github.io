@@ -114,7 +114,7 @@ form, fieldset{
 	border-style:none;
 }
 li {
-	list-style: none;
+    line-height: 23px;
 }
 #wrapper{
 	width:1000px;
@@ -1460,10 +1460,11 @@ border-bottom: solid 1px #999;
 
 
 #sidebar{
-	width:220px;
+
 	float:right;
 	padding-left: 10px;
 	border-left: 1px dotted #CCC;
+    width: 192px;
 }
 #sidebar .block{
 	width:100%;
@@ -2937,7 +2938,7 @@ div.direction-7-7{
 }
 #sidebar .block ul.menu li a:hover{
 	color:#e2017b;
-	background: url(../images/arrow-menu-right.gif) no-repeat 0px;
+	
 	margin-left: -53px;
 	padding-left: 53px;
 	z-index: 50;
@@ -2946,7 +2947,7 @@ div.direction-7-7{
 }
 #sidebar .block ul.menu li.current-menu-item a{
 	color: #e2017b;
-	background: url(../images/arrow-menu-right.gif) no-repeat 0px;
+	
 	margin-left: -53px;
 	padding-left: 53px;
 	z-index: 50;
@@ -3407,7 +3408,7 @@ color: #E2017B;
 }
 #sidebar .block ul.menu li a:hover{
 	color:#e2017b;
-	background: url(../images/arrow-menu-right.gif) no-repeat 0px;
+	
 	margin-left: -53px;
 	padding-left: 53px;
 	z-index: 50;
@@ -3416,7 +3417,7 @@ color: #E2017B;
 }
 #sidebar .block ul.menu li.active a{
 	color: #e2017b;
-	background: url(../images/arrow-menu-right.gif) no-repeat 0px;
+	
 	margin-left: -53px;
 	padding-left: 53px;
 	z-index: 50;
@@ -3834,7 +3835,7 @@ color: #E2017B;
 }
 #sidebar  ul li a:hover{
 	color: #E2017B;
-	background: url(../images/arrow-menu-right.gif) no-repeat 0px;
+	
 	margin-left: -53px;
 	padding-left: 53px;
 	z-index: 50;
@@ -3967,7 +3968,7 @@ input.widget-autocomplete {
 	width: 100%;
 }
 #content.full .blockmagenta{
-	width: 279px;
+	width: 225px;
 	height: 434px;
 	background-color: #E2017B;
 	color: white;
@@ -3975,17 +3976,17 @@ input.widget-autocomplete {
 	float:left;
 }
 #content.full .blockmagenta span.terraexpirience{
-	font: 36px/36px terrasans-light, Arial, sans-serif;
+	font: 32px/32px terrasans-light, Arial, sans-serif;
 }
 
 #content.full .blockmagenta span.livingoffer{
-	font: 72px/72px terrasans-light, Arial, sans-serif;
-	float: left;
+	font: 55px/55px terrasans-light, Arial, sans-serif;
+
 	margin-top: 30px;
 }
 #content.full .imagebox{
 	float:left;
-	height: 234px;
+
 	width: 625px;
 }
 #content.full .imagebox img{
